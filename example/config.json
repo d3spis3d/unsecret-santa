@@ -1,0 +1,19 @@
+{
+    "participants": [
+      "Tom",
+      "Mary",
+      "Sam",
+      "Joe",
+      "Lisa",
+      "Anna"
+    ],
+    "exclusions": [
+      { "giver": "Tom", "receiver": "Mary" },
+      { "giver": "Mary", "receiver": "Tom" },
+      { "giver": "Mary", "receiver": "Sam" },
+      { "giver": "Sam", "receiver": "Mary" },
+      { "giver": "Joe", "receiver": "Lisa" },
+      { "giver": "Lisa", "receiver": "Joe" },
+      { "giver": "Anna", "receiver": "Tom" }
+    ]
+  }
